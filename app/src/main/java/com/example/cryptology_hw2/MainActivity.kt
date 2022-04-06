@@ -13,8 +13,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var signin : Button
     lateinit var login : Button
 
-    var itis = 1
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
